@@ -1,16 +1,18 @@
-# 新需求
+# New Requirement
 
-需要实现一个Snippet功能，主要是保存snippet，主要包括title, filename, code, tags等信息。
+Need to implement a Snippet feature, mainly for saving snippets, including information such as title, filename, code, tags, etc.
 
-- 新增Snippet Entity类
-- 新增Snippet Repository类
-- 新增Snippet Service类
-- 新建SnippetListView，主要用于展现snippet，包括增加新snippet，修改snippet，删除snippet，搜索snippet
-- 将新增SnippetListView添加到MenuBar 中
+- Add Snippet Entity class
+- Add Snippet Repository class
+- Add Snippet Service class
+- Create SnippetListView, mainly used to display snippets, including adding new snippets, modifying snippets, deleting snippets, searching snippets
+- Add the new SnippetListView to the MenuBar
 
-请借鉴Task的实现代码，完成Snippet的实现。
+Please refer to the Task implementation code to complete the Snippet implementation.
 
-# 代码修改
+# Code Modification
 
-请为Task类添加tags字段，tags是一个逗号分隔的字符串，如`vip,paid`。
-添加tags字段后，请修改TaskListView类，添加tags字段的输入框，并实现搜索功能。
+Please add a tags field to the Task class. Tags is a comma-separated string, such as `vip,paid`.
+After adding the tags field, please modify the TaskListView class to add an input box for the tags field and implement search functionality.
+
+
